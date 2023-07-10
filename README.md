@@ -1,13 +1,20 @@
 # AI_SUMMER_SCHOOL_2023
 
 Section1: Introduction to Python
+
 - Installing Anaconda
 - Create Enviroment using .yml file
 - Install Juypter & load up juypter
 
 Section2: Data handling with Pandas
+
+- Examples of possible data types: Features-wise, Images and Time series 
+- Creating a data structure
+- Accessing & manipulating your data
+
 Section3: Machine Learning & Visualiation
 
+- What is AI / Machine Learning
 
 # Introduction to Python
 
@@ -22,6 +29,7 @@ Section3: Machine Learning & Visualiation
 3.1 conda env create -f enviroment.yml 
 
 # Data handling with Pandas
+
 
 
 # Machine Learning & Visualiation
