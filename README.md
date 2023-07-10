@@ -15,6 +15,7 @@ Section2: Data handling with Pandas
 Section3: Machine Learning & Visualiation
 
 - What is AI / Machine Learning
+- Examples of machine learning models for the following types of data: Features-wise, Images and Time series
 
 # Introduction to Python
 
