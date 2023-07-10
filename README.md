@@ -16,6 +16,7 @@ Section3: Machine Learning & Visualiation
 
 - What is AI / Machine Learning
 - Examples of machine learning models for the following types of data: Features-wise, Images and Time series
+- Charts and Feature Extraction
 
 # Introduction to Python
 
