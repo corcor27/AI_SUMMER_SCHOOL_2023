@@ -36,3 +36,6 @@ Section3: Machine Learning & Visualiation
 
 # Machine Learning & Visualiation
 
+Time Series: https://swcarpentry.github.io/python-intermediate-mosquitoes/01-intro-python.html
+Time series Mark2: https://swcarpentry.github.io/python-intermediate-mosquitoes/02-modularization-documentation.html
+
