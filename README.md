@@ -4,6 +4,7 @@ Section1: Introduction to Python
 - Installing Anaconda
 - Create Enviroment using .yml file
 - Install Juypter & load up juypter
+
 Section2: Data handling with Pandas
 Section3: Machine Learning & Visualiation
 
