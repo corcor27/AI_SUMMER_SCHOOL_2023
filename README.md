@@ -1,4 +1,11 @@
 # AI_SUMMER_SCHOOL_2023
+
+Section1: Introduction to Python 
+Section2: Data handling with Pandas
+Section3: Machine Learning 
+Section4: 
+
+
 # Introduction to Python
 
 1.1 Firstly, for you to start spriting or testing any python code your going to need an enviroment. For this we employ to use of anaconda, which can be downloaded from the following link: https://www.anaconda.com/ . Make sure to download your correct os version
@@ -9,4 +16,6 @@
 
 2.1 (Apple) No Clue, dont own one.
 
+3.1 conda env create -f enviroment.yml 
 
+# Data handling with Pandas
