@@ -32,7 +32,9 @@ Section3: Machine Learning & Visualiation
 
 # Data handling with Pandas
 Time Series Mosquito Dataset: https://github.com/takluyver/ucb-ipython-intro/blob/master/python_intermediate/A1_mosquito_data.csv
+
 Image Classification Datset: https://www.kaggle.com/datasets/samuelcortinhas/cats-and-dogs-image-classification
+
 Feature-wise Dataset: https://www.kaggle.com/datasets/uciml/iris
 
 
