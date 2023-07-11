@@ -31,12 +31,14 @@ Section3: Machine Learning & Visualiation
 3.1 conda env create -f enviroment.yml 
 
 # Data handling with Pandas
-
+Time Series Mosquito Dataset: https://github.com/takluyver/ucb-ipython-intro/blob/master/python_intermediate/A1_mosquito_data.csv
+Image Classification Datset: https://www.kaggle.com/datasets/samuelcortinhas/cats-and-dogs-image-classification
+Feature-wise Dataset: https://www.kaggle.com/datasets/uciml/iris
 
 
 # Machine Learning & Visualiation
 
-Time Series Mosquito Dataset: https://github.com/takluyver/ucb-ipython-intro/blob/master/python_intermediate/A1_mosquito_data.csv
+
 
 Time series: https://swcarpentry.github.io/python-intermediate-mosquitoes/02-modularization-documentation.html
 
