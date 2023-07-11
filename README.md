@@ -37,5 +37,6 @@ Section3: Machine Learning & Visualiation
 # Machine Learning & Visualiation
 
 Time Series Mosquito Dataset: https://github.com/takluyver/ucb-ipython-intro/blob/master/python_intermediate/A1_mosquito_data.csv
+
 Time series: https://swcarpentry.github.io/python-intermediate-mosquitoes/02-modularization-documentation.html
 
