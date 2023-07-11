@@ -11,6 +11,7 @@ Section2: Data handling with Pandas
 - Examples of possible data types: Features-wise, Images and Time series 
 - Creating a data structure
 - Accessing & manipulating your data
+- plotting with Matplotlib
 
 Section3: Machine Learning & Visualiation
 
