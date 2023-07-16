@@ -11,10 +11,11 @@ Section1: Introduction to Python
 Section2: Data types & handling data Pandas
 
 - introduction to data types: https://swcarpentry.github.io/python-novice-inflammation/01-intro.html
-- Examples of possible data types: Features-wise, Images and Time series
+
 - introduction to pandas: https://ucsbcarpentry.github.io/2019-10-10-Python-UCSB/08-data-frames/
 - Creating a data structure
 - Accessing & manipulating your data
+- Examples of possible data types: Features-wise, Images and Time series
 - Plotting with Matplotlib
 
 Section3: Machine Learning & Visualiation
