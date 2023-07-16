@@ -6,8 +6,8 @@ Section1: Introduction to Python
 - Create Enviroment using .yml file (back up option just incase)
 - Install Juypter & load up juypter
 
-Section2: Data handling with Pandas
-
+Section2: Data types & handling data Pandas
+- https://swcarpentry.github.io/python-novice-inflammation/
 - Examples of possible data types: Features-wise, Images and Time series 
 - Creating a data structure
 - Accessing & manipulating your data
@@ -19,7 +19,7 @@ Section3: Machine Learning & Visualiation
 - Examples of machine learning models for the following types of data: Features-wise, Images and Time series
 - Charts and Feature Extraction
 
-# Introduction to Python
+# Introduction to Python: Installing Anaconda
 
 1.1 Firstly, for you to start spriting or testing any python code your going to need an enviroment. For this we employ to use of anaconda, which can be downloaded from the following link: https://www.anaconda.com/ . Make sure to download your correct os version
 
