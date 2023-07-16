@@ -2,12 +2,14 @@
 
 Section1: Introduction to Python
 
+- https://swcarpentry.github.io/python-novice-inflammation/
 - Installing Anaconda
 - Create Enviroment using .yml file (back up option just incase)
 - Install Juypter & load up juypter
 
 Section2: Data types & handling data Pandas
-- https://swcarpentry.github.io/python-novice-inflammation/
+
+- https://swcarpentry.github.io/python-novice-inflammation/01-intro.html
 - Examples of possible data types: Features-wise, Images and Time series 
 - Creating a data structure
 - Accessing & manipulating your data
