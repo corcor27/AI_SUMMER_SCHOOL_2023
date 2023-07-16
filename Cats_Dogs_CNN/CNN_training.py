@@ -8,6 +8,7 @@ import cv2
 import argparse
 from data_generator import DataGenerator
 from tensorflow.keras import layers, Model
+from tensorflow.keras.callbacks import TensorBoard, EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
 
 parser = argparse.ArgumentParser()
 
