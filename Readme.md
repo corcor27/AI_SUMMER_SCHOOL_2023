@@ -40,7 +40,7 @@ Section3: Machine Learning & Visualiation
 
 1.4 (Linux & apple) open terminal and navigate to inside the just downloaded git repositry and enter "conda env create -f linux_enviroment.yml". This with install all the packages. In terminal if you dont have (base) shown in the bottom corner, please signal for help.
 
-1.4 (Windows) open your downloaded anaconda-navigator. on the home screen (shown in top left) click the install button for "CMD.exe Prompt". Once installed, click the now "run" button shown under the "CMD.exe Prompt" and navigate to the just downloaded git repositry. Then run command "conda env create -f windows_enviroment.yml"
+1.4 (Windows) open your downloaded anaconda-navigator. on the home screen (shown in top left) click the install button for "CMD.exe Prompt". Once installed, click the "run" button shown under the "CMD.exe Prompt" and navigate to the just downloaded git repositry. Then run command "conda env create -f windows_enviroment.yml"
 
 1.5 (Everyone) now returning to anaconda navigator (if linux or apple enter "anaconda-navigator" in terminal") and click the button to install "Jupyter Notebook".
 
