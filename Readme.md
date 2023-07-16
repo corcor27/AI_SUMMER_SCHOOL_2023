@@ -46,6 +46,8 @@ Section3: Machine Learning & Visualiation
 
 1.6 (Everyone) Once installed open jupyter Notebook, then click "New" (top right) and python 3 and this will open you a new notebook to code some python.
 
+1.7 (Everyone) Find where your conda enviroment is sorted and zip up enviroment such that you have a backup. You will thank me later
+
 
 
 # Data handling with Pandas
