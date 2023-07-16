@@ -25,7 +25,7 @@ parser.add_argument('--max_epochs', type=int, default=20, help='maximum epoch nu
 
 parser.add_argument('--batch_size', type=int, default=8, help='batch_size per gpu')
 parser.add_argument('--aug', default = False, help='do you want augmentation? true or false')
-parser.add_argument('--img_colour', default = True, help='do you want to use colour')
+
 parser.add_argument('--Starting_lr', type=float,  default=0.0001,help='intial lr')
 
 ###output files
