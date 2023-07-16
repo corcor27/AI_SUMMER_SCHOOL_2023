@@ -64,7 +64,9 @@ FordA time series Dataset: http://www.timeseriesclassification.com/description.p
 
 # Data handling with Pandas
 
-2.1 introduction to data types: https://swcarpentry.github.io/python-novice-inflammation/01-intro.html
+2.1 introduction to data types: https://swcarpentry.github.io/python-novice-inflammation/index.html (
+
+
 
 
 
