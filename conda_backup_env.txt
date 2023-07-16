@@ -1,0 +1,10 @@
+conda create --name AI_SUM python==3.8
+conda activate AI_SUM
+pip install tensorflow==2.10.*
+pip install opencv-contrib-python
+pip install pandas
+pip install matplotlib
+pip install scikit-learn
+pip install imgaug
+pip install openpyxl
+
