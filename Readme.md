@@ -38,7 +38,9 @@ Section3: Machine Learning & Visualiation
 
 1.3 (Everyone) go to https://github.com/corcor27/AI_SUMMER_SCHOOL_2023/tree/main and download the repositry and unzip the downloaded file.
 
-1.3 (Linux) open terminal and navigate to inside the just downloaded git repositry and enter "conda env create -f linux_enviroment.yml". This with install all the packages.
+1.4 (Linux & apple) open terminal and navigate to inside the just downloaded git repositry and enter "conda env create -f linux_enviroment.yml". This with install all the packages. In terminal if you dont have (base) shown in the bottom corner, please signal for help.
+
+1.4 (Windows) open your downloaded anaconda-navigator. on the home screen (shown in top left) click the install button for "CMD.exe Prompt". Once installed, click the now "run" button shown under the "CMD.exe Prompt" and navigate to the just downloaded git repositry.
 
 # Data handling with Pandas
 Time Series Mosquito Dataset: https://github.com/takluyver/ucb-ipython-intro/blob/master/python_intermediate/A1_mosquito_data.csv
