@@ -62,7 +62,7 @@ Feature-wise Dataset: https://www.kaggle.com/datasets/uciml/iris (easy)
 FordA time series Dataset: http://www.timeseriesclassification.com/description.php?Dataset=FordA (hard)
 
 
-# Data handling with Pandas
+# Data types & handling data Pandas
 
 2.1 introduction to data types: https://swcarpentry.github.io/python-novice-inflammation/01-intro.html (2 pages)
 
