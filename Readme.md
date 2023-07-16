@@ -54,6 +54,10 @@ Section3: Machine Learning & Visualiation
 
 
 # Data handling with Pandas
+
+2.1 introduction to data types: https://swcarpentry.github.io/python-novice-inflammation/01-intro.html
+
+
 Time Series Mosquito Dataset: https://github.com/takluyver/ucb-ipython-intro/blob/master/python_intermediate/A1_mosquito_data.csv
 
 Image Classification Datset: https://www.kaggle.com/datasets/samuelcortinhas/cats-and-dogs-image-classification
