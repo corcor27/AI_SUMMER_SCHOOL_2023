@@ -51,6 +51,15 @@ Section3: Machine Learning & Visualiation
 
 1.7 (Everyone) Find where your conda enviroment is sorted and zip up enviroment such that you have a backup. You will thank me later
 
+# Datasets
+
+
+
+Image Classification Datset: https://www.kaggle.com/datasets/samuelcortinhas/cats-and-dogs-image-classification (medium)
+
+Feature-wise Dataset: https://www.kaggle.com/datasets/uciml/iris (easy)
+
+FordA time series Dataset: http://www.timeseriesclassification.com/description.php?Dataset=FordA (hard)
 
 
 # Data handling with Pandas
@@ -58,11 +67,7 @@ Section3: Machine Learning & Visualiation
 2.1 introduction to data types: https://swcarpentry.github.io/python-novice-inflammation/01-intro.html
 
 
-Time Series Mosquito Dataset: https://github.com/takluyver/ucb-ipython-intro/blob/master/python_intermediate/A1_mosquito_data.csv
 
-Image Classification Datset: https://www.kaggle.com/datasets/samuelcortinhas/cats-and-dogs-image-classification
-
-Feature-wise Dataset: https://www.kaggle.com/datasets/uciml/iris
 
 
 
