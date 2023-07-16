@@ -36,6 +36,8 @@ Section3: Machine Learning & Visualiation
 
 1.2 (Apple) click the following link: https://docs.anaconda.com/free/anaconda/install/mac-os/ and download the MacOS installer.
 
+1.3 (Everyone) 
+
 1.3 (Linux) open terminal and enter "conda env create -f linux_enviroment.yml"
 
 # Data handling with Pandas
