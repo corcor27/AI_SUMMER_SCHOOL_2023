@@ -64,7 +64,13 @@ FordA time series Dataset: http://www.timeseriesclassification.com/description.p
 
 # Data handling with Pandas
 
-2.1 introduction to data types: https://swcarpentry.github.io/python-novice-inflammation/index.html (
+2.1 introduction to data types: https://swcarpentry.github.io/python-novice-inflammation/01-intro.html (2 pages)
+
+2.2 introduction to pandas: https://ucsbcarpentry.github.io/2019-10-10-Python-UCSB/08-data-frames/ (1 pages)
+
+2.3 Visualizing Tabular Data: https://swcarpentry.github.io/python-novice-inflammation/03-matplotlib.html
+
+2.4 Futher work, In the git there are 3 different folders/datasets (shown above). Pick one that is the most similar to your data and have ago at reading in the data and producing a graph.
 
 
 
