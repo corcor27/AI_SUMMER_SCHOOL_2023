@@ -28,6 +28,9 @@ Section3: Machine Learning & Visualiation
 
 # Introduction to Python: Installing Anaconda
 
+- Introduction anaconda: https://swcarpentry.github.io/python-novice-inflammation/
+- anaconda cheat sheet: https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment
+
 1.1 (Everyone) Firstly, for you to start spriting or testing any python code your going to need an enviroment. For this we employ to use of anaconda, which can be downloaded from the following link: https://www.anaconda.com/ . Make sure to download your correct os version
 
 1.2 (Windows) Click install and complete installer windows. Make sure when asked to "conda init" say yes
