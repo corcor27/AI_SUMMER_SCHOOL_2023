@@ -2,7 +2,7 @@
 
 Section1: Introduction to Python
 
-- Introduction: https://swcarpentry.github.io/python-novice-inflammation/
+- Introduction anaconda: https://swcarpentry.github.io/python-novice-inflammation/
 - anaconda cheat sheet: https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#activating-an-environment
 - Installing Anaconda
 - Create Enviroment using .yml file (back up option just incase)
