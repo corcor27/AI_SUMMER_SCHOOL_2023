@@ -36,7 +36,7 @@ Section3: Machine Learning & Visualiation
 
 1.2 (Apple) click the following link: https://docs.anaconda.com/free/anaconda/install/mac-os/ and download the MacOS installer.
 
-1.3 (Linux) open terminal and enter "conda env create -f enviroment.yml"
+1.3 (Linux) open terminal and enter "conda env create -f linux_enviroment.yml"
 
 # Data handling with Pandas
 Time Series Mosquito Dataset: https://github.com/takluyver/ucb-ipython-intro/blob/master/python_intermediate/A1_mosquito_data.csv
