@@ -9,6 +9,9 @@ import argparse
 from data_generator import DataGenerator
 from tensorflow.keras import layers, Model
 from tensorflow.keras.callbacks import TensorBoard, EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
+from sklearn.decomposition import PCA
+import umap
+from sklearn.utils import shuffle
 
 parser = argparse.ArgumentParser()
 
@@ -41,14 +44,15 @@ print(args.features_columns)
 
 ### open excel sheets in pandas
 training_data = pd.read_csv(args.train_excel)
-
+training_data = shuffle(training_data, random_state=42)
 # find data split value
 split_value = int(round(training_data.shape[0] * args.validation_split, 0))
 
 train_data, validation_data = training_data.iloc[:split_value], training_data.iloc[split_value:]
 
 print(train_data.shape, validation_data.shape)
-
+if args.mode == "features":
+    args.batch_size = 1
 #### load images into dataloader
 
 train_set = DataGenerator(train_data, args, shuffle=True)
@@ -59,14 +63,14 @@ validation_set = DataGenerator(validation_data, args)
 
 def Simple_model(args, filters=16):
     inputA = layers.Input(shape=(len(args.features_columns)))
-    x = layers.Dense(filters*2, activation='linear')(inputA)
-    x = layers.BatchNormalization(momentum=0.1, epsilon=0.00001)(x)
+    x = layers.Dense(filters*2, activation='relu')(inputA)
+    x = layers.BatchNormalization()(x)
     x = layers.Dropout(0.3)(x)
-    x = layers.Dense(filters, activation='linear')(x)
-    x = layers.BatchNormalization(momentum=0.1, epsilon=0.00001)(x)
+    x = layers.Dense(filters, activation='relu')(x)
+    x = layers.BatchNormalization()(x)
     x = layers.Dropout(0.3)(x)
-    x = layers.Dense(int(round(filters/2,0)), activation='linear')(x)
-    x = layers.BatchNormalization(momentum=0.1, epsilon=0.00001)(x)
+    x = layers.Dense(int(round(filters/2,0)), activation='relu')(x)
+    x = layers.BatchNormalization()(x)
     fc = layers.Dense(len(args.prediction_classes), activation="softmax")(x)
     model = Model(inputs=inputA, outputs=fc)
     return model
@@ -89,6 +93,48 @@ elif args.mode == "inference":
     model.evaluate(validation_set)
 elif args.features == "features":
     model.load_weights(args.weight_name)
+    features = []
+    Extract = Model(model.inputs, model.layers[-3].output)
+    data = training_data.copy()
+    all_images = DataGenerator(data, args)
+    for ii in range(0, data.shape[0]):
+        image, label = all_images[ii]
+        #image = np.squeeze(image)
+        val_pred = Extract([image], training=False)
+        features.append(val_pred)
+
+    features = np.array(features)
+    features = np.squeeze(features)
+    print(features.shape)
+    clusterable_embedding = umap.UMAP()
+    cluster = clusterable_embedding.fit_transform(features)
+    pca = PCA(n_components=2)
+    cluster2 = pca.fit_transform(features)
+    data["X_PCA_POSITIONS"] = cluster2[:, 0]
+    data["Y_PCA_POSITIONS"] = cluster2[:, 1]
+    data["X_UMAP_POSITIONS"] = cluster[:, 0]
+    data["Y_UMAP_POSITIONS"] = cluster[:, 1]
+    for item in args.prediction_classes:
+        df2 = data[(data[item] == 1)]
+        plt.scatter(df2["X_PCA_POSITIONS"],
+                    df2["Y_PCA_POSITIONS"], label=item)
+    plt.legend()
+    plt.title("Pca")
+    plt.savefig("Pca_features.png")
+    plt.close()
+    
+    for item in args.prediction_classes:
+        df2 = data[(data[item] == 1)]
+        plt.scatter(df2["X_UMAP_POSITIONS"],
+                    df2["Y_UMAP_POSITIONS"], label=item)
+    plt.legend()
+    plt.title("UMAP")
+    plt.show()
+    plt.savefig("UMAP_features.png")
+    plt.close()
+    
+    
+    data.to_excel("Iris_features.xlsx")
     
 
 

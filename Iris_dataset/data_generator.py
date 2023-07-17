@@ -9,8 +9,13 @@ class DataGenerator(keras.utils.Sequence):
     'Generates data for Keras'
     def __init__(self, dataset, args, shuffle=False):
         'Initialization'
-        self.dataset = dataset
+        
         self.args = args
+        for item in self.args.features_columns:
+
+            dataset[self.args.features_columns] = dataset[self.args.features_columns]/np.max(dataset[self.args.features_columns])
+
+        self.dataset = dataset
         self.shuffle = shuffle
         self.n = len(self.dataset)
         self.on_epoch_end()
