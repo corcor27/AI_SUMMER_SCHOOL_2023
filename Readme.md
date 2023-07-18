@@ -76,12 +76,7 @@ FordA time series Dataset: http://www.timeseriesclassification.com/description.p
 
 
 
-
-
-
-
-
 # Machine Learning & Visualiation
 
-Time series: https://swcarpentry.github.io/python-intermediate-mosquitoes/02-modularization-documentation.html
+Beginners: Start on the iris dataset
 
